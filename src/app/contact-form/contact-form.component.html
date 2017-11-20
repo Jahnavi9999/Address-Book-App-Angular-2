@@ -1,0 +1,71 @@
+
+
+<div class="add-form-container">
+    <form>
+      <div>
+        <div>
+        <label for="name">Name</label>
+        </div>
+        <div>
+        <input type="text" class="form-control" id="name" [(ngModel)] = "contactFormObj.name" name="Name" required>
+        </div>
+      </div>
+
+      <div>
+        <div>
+      <label for="email">Email</label>
+        </div>
+        <div>
+<input type="text" class="form-control" id="email" [(ngModel)]="contactFormObj.email" name="email" required>
+
+      </div>
+      </div>
+      <div>
+        <div>
+      <label for="phone">Phone</label>
+        </div>
+        <div>
+<input type="text" class="form-control" id="phone" [(ngModel)]="contactFormObj.phone" name="phone" required>
+
+
+        </div>
+      </div>
+      <div>
+        <div>
+      <label for="website">Website</label>
+        </div>
+        <div>
+<input type="text" class="form-control" id="website" [(ngModel)]="contactFormObj.website" name="website" required>
+
+        </div>
+      </div>
+
+      <div>
+        <div>
+      <label for="address">Address</label>
+        </div>
+        <div>
+<input type="text" class="form-control" id="address" [(ngModel)]="contactFormObj.address" name="address" required>
+
+        </div>
+     </div>
+<div>
+  <div>
+    <button type="submit" (click) = "AddContact()" class="btn btn-success">Add Contact</button>
+  </div>
+</div>
+<div>
+  <h1> Contact details </h1>
+  </div>
+
+
+  </form>
+</div>
+
+<!-- Passing the contact Form Component object data to contact details object data -->
+<app-contacts-list [contactListObject]="contactFormObj">
+</app-contacts-list>
+
+
+
+

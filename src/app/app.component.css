@@ -1,0 +1,64 @@
+.div-header {
+    height: 100px;
+    padding: 10px 0;
+    background-color: lightskyblue;
+}
+
+.div-header h1 {
+    font-size: 60px;
+    margin: 10px;
+    color: white;
+    font: 60px century gothic;
+    padding: 10px;
+}
+
+.nav-menu {
+    overflow: hidden;
+    background-color: darkslategrey;
+}
+
+.nav-menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    font: bold 14px century gothic;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.body-div {
+    background-color: white;
+    margin-left: 10px;
+}
+
+.left-div-contacts {
+    float: left;
+    padding: 10px;
+    border: 1.5px thin grey;
+}
+
+.contacts-list-item {
+border: width none color;
+}
+
+.Add-contact-form {
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.addressbook-details-display {
+    float: center;
+    margin-left: 300px;
+}
+
+.edit-delete {
+    float: right;
+    margin-right: 200px;
+}
+
+.address-input-details {
+    margin-left: 500px;
+    padding: 10px;
+}
